@@ -32,7 +32,7 @@ class Lamp extends Appliances {
     }
 }
 
-const myComputer = new Computer(8, "AM4", 4096, "DDR4", 8192, "mycomputer", 120);
+const myComputer = new Computer(8, "AM4", 4096, "DDR4", 8192, "mycomputer", 150);
 const tableLamp = new Lamp("LED", 20, "myLamp", 3);
 
 myComputer.turnOn(1.5);
